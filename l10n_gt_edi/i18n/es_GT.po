@@ -1,0 +1,299 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_gt_edi
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e-20210407\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-05 20:36+0000\n"
+"PO-Revision-Date: 2021-06-05 20:36+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_res_company__iva_affiliation_id
+msgid "Afiliacion IVA"
+msgstr "Afiliación IVA"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_bank_statement_line__allowed_type_ids
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_move__allowed_type_ids
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_payment__allowed_type_ids
+msgid "Allowed Type"
+msgstr "Tipo permitido"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_dte_type__code
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_frase__code
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_iva__code
+msgid "Code"
+msgstr "Código"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_res_company__codigo_establecimiento
+msgid "Codigo Establecimiento"
+msgstr ""
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_tax__codigo_unidad_gravable
+msgid "Codigo Unidad Gravable"
+msgstr ""
+
+#. module: l10n_gt_edi
+#: model:ir.model,name:l10n_gt_edi.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: l10n_gt_edi
+#: model:ir.actions.server,name:l10n_gt_edi.print_instance
+msgid "Confirm and send invoices"
+msgstr ""
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_dte_type__create_uid
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_frase__create_uid
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_iva__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_dte_type__create_date
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_frase__create_date
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_iva__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: l10n_gt_edi
+#: model_terms:ir.ui.view,arch_db:l10n_gt_edi.res_company_view_form
+msgid "DTE"
+msgstr "DTE"
+
+#. module: l10n_gt_edi
+#: model:ir.ui.menu,name:l10n_gt_edi.menu_dte_type
+msgid "DTE Types"
+msgstr "Tipos de DTE"
+
+#. module: l10n_gt_edi
+#: model:ir.actions.act_window,name:l10n_gt_edi.action_dte_types
+msgid "DTE types"
+msgstr "Tipos de DTE"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_journal__display_name
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_move__display_name
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_tax__display_name
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_dte_type__display_name
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_frase__display_name
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_iva__display_name
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_res_company__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_bank_statement_line__emision_datetime
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_move__emision_datetime
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_payment__emision_datetime
+msgid "Emision Datetime"
+msgstr "Fecha y hora de emisión"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_frase__setting
+msgid "Escenario"
+msgstr "Escenario"
+
+#. module: l10n_gt_edi
+#: model_terms:ir.ui.view,arch_db:l10n_gt_edi.account_move_view_form
+msgid "FEEL"
+msgstr "FEEL"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_bank_statement_line__frases_ids
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_move__frases_ids
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_payment__frases_ids
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_dte_type__frases_ids
+#: model_terms:ir.ui.view,arch_db:l10n_gt_edi.gt_dte_type_view_form
+msgid "Frases"
+msgstr "Frases"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_dte_type__general_move_type
+msgid "General Move Type"
+msgstr "Tipo general de factura"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_journal__id
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_move__id
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_tax__id
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_dte_type__id
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_frase__id
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_iva__id
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_res_company__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields.selection,name:l10n_gt_edi.selection__gt_dte_type__general_move_type__invoice
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_bank_statement_line__regime
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_move__regime
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_payment__regime
+msgid "Is Old Regime"
+msgstr "Es de Régimen Antiguo"
+
+#. module: l10n_gt_edi
+#: model:ir.model,name:l10n_gt_edi.model_account_journal
+msgid "Journal"
+msgstr "Diario"
+
+#. module: l10n_gt_edi
+#: model:ir.model,name:l10n_gt_edi.model_account_move
+msgid "Journal Entry"
+msgstr "Asiento contable"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_journal____last_update
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_move____last_update
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_tax____last_update
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_dte_type____last_update
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_frase____last_update
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_iva____last_update
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_res_company____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_dte_type__write_uid
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_frase__write_uid
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_iva__write_uid
+msgid "Last Updated by"
+msgstr "Última modificación por"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_dte_type__write_date
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_frase__write_date
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_iva__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_dte_type__name
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_iva__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_bank_statement_line__origin_date
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_move__origin_date
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_payment__origin_date
+msgid "Origin Date"
+msgstr "Fecha de Origen"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_bank_statement_line__origin_uuid
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_move__origin_uuid
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_payment__origin_uuid
+msgid "Origin Uuid"
+msgstr "UUID de Origen"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields.selection,name:l10n_gt_edi.selection__gt_dte_type__general_move_type__receipt
+msgid "Receipt"
+msgstr "Recibo"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields.selection,name:l10n_gt_edi.selection__gt_dte_type__general_move_type__refund
+msgid "Refund"
+msgstr "Reembolso"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_journal__enable_sending_to_sat
+msgid "Send invoices to SAT"
+msgstr "Enviar facturas a SAT"
+
+#. module: l10n_gt_edi
+#: model:ir.model,name:l10n_gt_edi.model_account_tax
+msgid "Tax"
+msgstr "Impuesto"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_tax__code_name
+msgid "Tax Name (INFILE)"
+msgstr "Nombre impuesto (INFILE)"
+
+#. module: l10n_gt_edi
+#: code:addons/l10n_gt_edi/models/account_move.py:0
+#, python-format
+msgid "There is a problem reading the XML file"
+msgstr "Hay un problema leyendo el archivo XML"
+
+#. module: l10n_gt_edi
+#: code:addons/l10n_gt_edi/models/account_move.py:0
+#, python-format
+msgid "There is missing information about the original invoice"
+msgstr "Hace falta información de la factura origen"
+
+#. module: l10n_gt_edi
+#: code:addons/l10n_gt_edi/models/account_move.py:0
+#, python-format
+msgid "There is no XML attached in the invoice"
+msgstr "No hay ningún XML adjunto a la factura"
+
+#. module: l10n_gt_edi
+#: code:addons/l10n_gt_edi/models/account_move.py:0
+#, python-format
+msgid ""
+"There's missing information about the company: Check the company's registry,"
+" email and address"
+msgstr ""
+"Hace falta alguna información sobre la compañía: Verifique el registro (NIF),"
+" correo electrónico y la dirección de la misma"
+
+#. module: l10n_gt_edi
+#: code:addons/l10n_gt_edi/models/account_move.py:0
+#, python-format
+msgid ""
+"There's missing information about the partner: Check the partner's registry,"
+" email and address"
+msgstr ""
+"Hace falta alguna información sobre el cliente: Verifique el registro (NIF),"
+" correo electrónico y la dirección del mismo"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_frase__name
+msgid "Tipo"
+msgstr "Tipo"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_gt_frase__type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: l10n_gt_edi
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_bank_statement_line__dte_type_id
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_move__dte_type_id
+#: model:ir.model.fields,field_description:l10n_gt_edi.field_account_payment__dte_type_id
+msgid "Type of DTE"
+msgstr "Tipo de DTE"
+
+#. module: l10n_gt_edi
+#: model:ir.model,name:l10n_gt_edi.model_gt_dte_type
+msgid "gt.dte.type"
+msgstr "gt.dte.type"
+
+#. module: l10n_gt_edi
+#: model:ir.model,name:l10n_gt_edi.model_gt_frase
+msgid "gt.frase"
+msgstr "gt.frase"
+
+#. module: l10n_gt_edi
+#: model:ir.model,name:l10n_gt_edi.model_gt_iva
+msgid "gt.iva"
+msgstr "gt.iva"
